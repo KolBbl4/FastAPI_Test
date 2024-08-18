@@ -8,3 +8,6 @@ DB_PASS = "postgres"
 DB_NAME = "test"
 
 DATABASE_URL = f"postgresql+asyncpg://{DB_USER}:{DB_PASS}@{DB_HOST}:{DR_PORT}/{DB_NAME}"
+
+class Base (DeclarativeBase):
+    pass
